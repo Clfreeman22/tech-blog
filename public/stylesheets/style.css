@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(229, 250, 209);
+    color: rgb(29, 28, 26)
+}
+
+header {
+    background-color: rgb(29, 28, 26);
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+header h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: rgb(229, 250, 209);
+    text-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+}
+
+header h1 a:hover {
+    color: rgb(229, 250, 209);
+    text-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+    cursor: pointer;
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(229, 250, 209);
+    text-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    font-size: 20px;
+    border: solid 2px rgb(229, 250, 209);
+    border-radius: 2px;
+    box-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    padding: 5px;
+}
+
+nav a:hover {
+    color: rgb(243, 243, 243);
+    text-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+    border: solid 2px rgb(243, 243, 243);
+    box-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+}
+
+main {
+    margin-top: 15px;
+}
+
+.post {
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(229, 250, 209);
+}
+
+.post article div {
+    padding: 5px;
+}
+
+.post-title {
+    font-size: 20px;
+    
+}
+
+.login-form,
+.signup-form {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: solid 3px rgb(46, 46, 46);
+    border-radius: 2px;
+    box-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    padding: 15px 0 15px 0;
+}
+
+.login-form div,
+.signup-form div {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.login-form div button,
+.signup-form div button {
+
+    background-color: rgb(46, 46, 46);
+    color:rgb(229, 250, 209);
+    text-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    height: 30px;
+}
+
+.login-form div button:hover,
+.signup-form div button:hover {
+    color:rgb(243, 243, 243);
+    text-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+    border: 2px solid rgb(243, 243, 243);
+    box-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+    cursor: pointer;
+}
+
+.new-post-section, 
+.your-posts, 
+.edit-post,
+.comment {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(46, 46, 46)
+}
+
+.new-post-form {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.new-post-form div {
+    margin-bottom: 1px;
+}
+
+.pt {
+    padding: 10.5px;
+}
+
+.new-post-form input {
+    width: 300px;
+}
+
+.new-post-form button {
+    align-items: center;
+    width: 100px;
+    margin-left: 55px;
+}
+
+.edit-link,
+.btd, 
+.spb,
+.dpb,
+.acb, .cpb {
+    text-decoration: none;
+    margin: auto;
+    background-color: rgb(46, 46, 46);
+    color:rgb(229, 250, 209);
+    text-shadow: 0.5px 0.5px rgb(243, 243, 243, 0.5);
+    border: 2px solid rgb(229, 250, 209);
+    border-radius: 2px;
+    box-shadow: 1px 1px rgb(243, 243, 243, 0.5);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.edit-link:hover,
+.btd:hover,
+.spb:hover,
+.dpb:hover,
+.acb:hover, .cpb:hover {
+    color:rgb(243, 243, 243);
+    text-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+    border: 2px solid rgb(243, 243, 243);
+    box-shadow: 1px 1px rgb(29, 28, 26, 0.5);
+}
+
+.post-list {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.edit-btn-div {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    width: 100%;
+    justify-content: right;
+}
+
+.post a {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.comment-div {
+    margin-top: 10px;
+    border: 2px solid rgb(46, 46, 46);
+    border-radius: 2px;
+}
+
+.cfd {
+    border: 2px solid rgb(229, 250, 209);
+    border-radius: 2px;
+}
